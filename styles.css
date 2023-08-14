@@ -1,35 +1,74 @@
 body {
     font-family: 'Calisto MT', Garamond, Georgia;
     display:flex;
-    flex-direction:column;
-    margin:0;
-    padding:50px;
-    background-color: rgb(196, 159, 170);
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    margin:40px;
+    padding:40px;
+    background-color: rgb(209, 170, 182);
     color: rgb(79, 60, 64);
+    width:1000px;
+    height:700px;
 }
 
 /* this is the bio stuff container*/
 .odin {
     display: flex;
-    justify-content:flex-end;
-    font-weight: bold;
+
 }
 
 /* this is the bio stuff item*/
 .styl {
+    border-radius: 20px;
+    font-weight: bold;
+    background-color: rgb(254, 226, 234);
     width:300px;
+    height:640px;
+    padding:20px;
+    margin:0;
+    border:2px solid;
 }
 
 /*  this'll be the recipes */
 .beb {
-    
+    display:flex;
+    padding:30px;
+    width:400px;
+    height:150px;
+    background-color: rgb(254, 226, 234);
+    border-radius: 20px;
+    border:2px solid;
 }
 
-/* this'll be the recipes container */
+/* this'll be the recipes invisible container */
 .bebi {
     display:flex;
     flex-direction: column;
-    justify-content:flex-start;
+    gap:20px;
+}
+
+/*  words in the recipes */
+.recword {
+    padding:10px;
+    width:200px;
+    height:40px;
+    text-align: center;
+    font-weight: bold;
+    margin:0;
+}
+
+img {
+    float: inline-start;
+    display:flex;
+    width:160px;
+    height:150px;
+    border-radius: 10px;
+}
+
+/*  the butttttton */
+.butt {
+    
 }
 
 /*   */
