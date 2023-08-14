@@ -1,0 +1,35 @@
+body {
+    font-family: 'Calisto MT', Garamond, Georgia;
+    display:flex;
+    flex-direction:column;
+    margin:0;
+    padding:50px;
+    background-color: rgb(196, 159, 170);
+    color: rgb(79, 60, 64);
+}
+
+/* this is the bio stuff container*/
+.odin {
+    display: flex;
+    justify-content:flex-end;
+    font-weight: bold;
+}
+
+/* this is the bio stuff item*/
+.styl {
+    width:300px;
+}
+
+/*  this'll be the recipes */
+.beb {
+    
+}
+
+/* this'll be the recipes container */
+.bebi {
+    display:flex;
+    flex-direction: column;
+    justify-content:flex-start;
+}
+
+/*   */
