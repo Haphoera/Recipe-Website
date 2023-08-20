@@ -2,20 +2,18 @@ body {
     font-family: 'Calisto MT', Garamond, Georgia;
     display:flex;
     flex-direction:row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    margin:40px;
-    padding:40px;
+    margin:60px;
+    padding:70px;
     background: linear-gradient(120deg, rgb(209, 170, 182), rgb(249, 127, 163));
     color: rgb(79, 60, 64);
-    width:1000px;
-    height:700px;
+    gap:12px;
 }
 
 /* this is the bio stuff container*/
 .odin {
     display: flex;
-
 }
 
 /* this is the bio stuff item*/
@@ -23,7 +21,7 @@ body {
     border-radius: 20px;
     font-weight: bold;
     background-color: rgb(254, 226, 234);
-    width:300px;
+    width:350px;
     height:640px;
     padding:20px;
     margin:0;
@@ -34,8 +32,8 @@ body {
 .beb {
     display:flex;
     padding:30px;
-    width:400px;
-    height:150px;
+    width:500px;
+    height:159px;
     background-color: rgb(254, 226, 234);
     border-radius: 20px;
     border:2px solid;
@@ -46,6 +44,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    margin: 20px;
 }
 
 
@@ -59,11 +58,13 @@ body {
 /*  words in the recipes */
 .recword {
     padding:5px;
-    width:200px;
+    width:250px;
     height:40px;
     text-align: center;
     font-weight: bold;
-    margin:10px;
+    margin:0px;
+    text-align: left;
+    font-size: 17px;
 }
 
 img {
@@ -76,11 +77,21 @@ img {
 /*  the butttttton */
 .butt {
     height: 30px;
-    width: 150px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid rgba(136, 118, 74, 0.719);
+    margin: 10px;
+    background-color:rgb(232, 221, 198);
+    font-weight: bold;
+    color: rgba(136, 118, 74, 0.719);
 }
 
+/*  this is the sentence */
 .suga {
-    padding:0;
+    padding:5px;
+    margin:10;
+    width: 300px;
+    font-size: 14px;font-weight:bold;
 }
 
 /*   */
