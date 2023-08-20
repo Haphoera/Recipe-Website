@@ -6,7 +6,7 @@ body {
     align-items: center;
     margin:40px;
     padding:40px;
-    background-color: rgb(209, 170, 182);
+    background: linear-gradient(120deg, rgb(209, 170, 182), rgb(249, 127, 163));
     color: rgb(79, 60, 64);
     width:1000px;
     height:700px;
@@ -41,6 +41,14 @@ body {
     border:2px solid;
 }
 
+/*  this'll be the recipe's content*/
+.inbeb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
 /* this'll be the recipes invisible container */
 .bebi {
     display:flex;
@@ -50,17 +58,16 @@ body {
 
 /*  words in the recipes */
 .recword {
-    padding:10px;
+    padding:5px;
     width:200px;
     height:40px;
     text-align: center;
     font-weight: bold;
-    margin:0;
+    margin:10px;
 }
 
 img {
     float: inline-start;
-    display:flex;
     width:160px;
     height:150px;
     border-radius: 10px;
@@ -68,7 +75,12 @@ img {
 
 /*  the butttttton */
 .butt {
-    
+    height: 30px;
+    width: 150px;
+}
+
+.suga {
+    padding:0;
 }
 
 /*   */
