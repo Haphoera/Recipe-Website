@@ -6,8 +6,8 @@ body {
     align-items: center;
     margin:60px;
     padding:70px;
-    background: linear-gradient(120deg, rgb(209, 170, 182), rgb(249, 127, 163));
-    color: rgb(79, 60, 64);
+    background: linear-gradient(120deg, rgb(219, 190, 171), rgb(181, 157, 141));
+    color: rgb(117, 102, 91);
     gap:12px;
 }
 
@@ -20,12 +20,13 @@ body {
 .styl {
     border-radius: 20px;
     font-weight: bold;
-    background-color: rgb(254, 226, 234);
+    background-color: rgb(245, 213, 191);
     width:350px;
     height:640px;
     padding:20px;
     margin:0;
-    border:2px solid;
+    border:2px solid rgb(54, 46, 42);
+    box-shadow: 5px 5px rgb(54, 46, 42);
 }
 
 /*  this'll be the recipes */
@@ -34,9 +35,10 @@ body {
     padding:30px;
     width:500px;
     height:159px;
-    background-color: rgb(254, 226, 234);
+    background-color: rgb(245, 213, 191);
     border-radius: 20px;
-    border:2px solid;
+    border:2px solid rgb(54, 46, 42);
+    box-shadow: 5px 5px rgb(54, 46, 42);
 }
 
 /*  this'll be the recipe's content*/
@@ -67,7 +69,7 @@ body {
     font-size: 17px;
 }
 
-img {
+.piks {
     float: inline-start;
     width:160px;
     height:150px;
@@ -81,9 +83,9 @@ img {
     border-radius: 5px;
     border: 1px solid rgba(136, 118, 74, 0.719);
     margin: 10px;
-    background-color:rgb(232, 221, 198);
+    background-color:rgb(54, 46, 42);
     font-weight: bold;
-    color: rgba(136, 118, 74, 0.719);
+    color: rgb(219, 190, 171);
 }
 
 /*  this is the sentence */
